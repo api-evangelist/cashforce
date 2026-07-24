@@ -1,7 +1,28 @@
 aid: cashforce
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cashforce.png
 name: Cashforce
-description: Cashforce is a company surfaced as a portfolio company of techstars and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Cashforce is a fintech platform focused on cash flow forecasting and
+  working-capital analytics for corporate treasury and finance teams, connecting
+  ERP systems, bank accounts, and financial data to give companies real-time
+  visibility into cash positions, liquidity, and forecasting scenarios. Originally
+  a Techstars-backed portfolio company, Cashforce was acquired by Billtrust and its
+  standalone product surface is no longer independently operated; this API Evangelist
+  profile tracks the company's public footprint. No public developer portal, API
+  documentation, or machine-readable API definitions are currently reachable at the
+  cashforce.com origin (the site returns HTTP 522), so this record carries identity
+  and domain-security signals only.
 url: https://raw.githubusercontent.com/api-evangelist/cashforce/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +32,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Fintech
+- Financial Services
+- Cash Flow Forecasting
+- Working Capital
+- Treasury
+- Cash Management
+- Analytics
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +49,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/cashforce-domain-security.yml
 - type: Website
   url: https://cashforce.com/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
