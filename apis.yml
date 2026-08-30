@@ -69,6 +69,11 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: ParentCompany
+  url: https://apis.io/providers/billtrust/
+  name: Billtrust
+  x-relationship: acquired
+  x-evidence: "Originally a Techstars-backed portfolio company, Cashforce was acquired by Billtrust and its standalone product surface is no longer independently operated; this API Evangelist profile tracks the company's public footprint."
 - type: DomainSecurity
   url: security/cashforce-domain-security.yml
 - type: Website
