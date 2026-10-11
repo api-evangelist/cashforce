@@ -1,0 +1,11 @@
+[
+  {
+    "repo": "cashforce",
+    "captured_at": "2026-10-11T184218",
+    "source_url": "https://cashforce.com/",
+    "source_type": "Website",
+    "file": "cashforce-2026-10-11T184218.png",
+    "bytes": 79665,
+    "capture": "playwright-local"
+  }
+]
